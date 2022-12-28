@@ -49,6 +49,7 @@ file="mycar.pkl"
 fileobj=open(file,'wb')
 pickle.dump(cars,fileobj)
 fileobj.close()
+print("hello world")
 #
 file="mycar.pkl"
 fileobj=open(file,'rb')
